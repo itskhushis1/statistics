@@ -4,6 +4,7 @@ public class Solution {
 public static void main(String[] args) {
 int [] array = getValues();
 Arrays.sort(array);
+  
 int q1 = findMedian(array, 0, array.length / 2 - 1);
 int q2 = findMedian(array, 0, array.length - 1);
 int q3 = findMedian(array, (array.length + 1) / 2, array.length - 1);
